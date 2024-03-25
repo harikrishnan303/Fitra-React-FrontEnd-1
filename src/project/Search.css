@@ -1,0 +1,53 @@
+.App {
+    font-family: sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .search-container {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+  }
+  
+  .dropdown:empty {
+    border: none;
+  }
+  
+  .dropdown-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+  }
+  
+  input {
+    height:40px;
+    width: 220px;
+    border-radius: 20px;
+    background-color: gray;
+
+  }
+  
+  .search-inner {
+    display: flex;
+    position:absolute ;
+    left:1000px;
+  }
+  button
+  {
+    border-radius: 25px;
+    width: 100px;
+    background-color: gray;
+    color: blanchedalmond;
+font-size: 20px;
+  }
+  
